@@ -1,3 +1,8 @@
+"""
+@DavidHoenisch
+2024-1-9
+"""
+
 import os
 import sys
 import hashlib
@@ -32,10 +37,10 @@ if __name__ == "__main__":
 
     if len(sys.argv) < 2:
         print("""
-        improper use
+        You forgot to supply a directory path
         
         Example:
-        python3 ./evisure.py /path/to/parent/directory
+        get_hashed /path/to/parent/directory
         """)
         sys.exit(1)
 
